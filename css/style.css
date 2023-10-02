@@ -1,3 +1,24 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.up-card{
+    height: 40%;
+}
+.down-card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.main-card{
+    width: 60%;
+    height: 60%;
+    padding: 30px 35px;
+}
 
 .avaliacao{
 display:flex;
@@ -6,10 +27,9 @@ justify-content: center;
 }
 .star-icon{
 list-style-type: none ;
-border: 1px solid #fff;
+border: 15px solid #fff;
 cursor: pointer;
 color: #ffe500;
-
 }
 .star-icon::before{
 content: "\2605";

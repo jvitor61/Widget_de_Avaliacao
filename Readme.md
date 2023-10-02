@@ -1,0 +1,1 @@
+Widget de avaliação de um produto.
